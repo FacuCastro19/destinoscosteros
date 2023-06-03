@@ -1,0 +1,136 @@
+body{
+    background-color: antiquewhite;
+ }
+
+ .container{
+     display: flex;
+     justify-content: center;
+ 
+ }
+ 
+ .imagen{
+     width: 480px;
+     position: left;
+     margin: 10px;
+     padding: 10px;
+     border-style: solid;
+     border-color: black;
+ }
+ 
+ .imagen1{
+    width: 480px;
+    position: right;
+    margin:10px;
+    padding: 10px;
+    border-style: solid;
+    border-color: black;
+ }
+ 
+ .imagen2{
+    width: 480px;
+    position: center right;
+    margin:10px;
+    padding: 10px;
+    border-style: solid;
+    border-color: black;
+ }
+ 
+ .video{
+  text-align:center;
+  margin: 10px;
+  padding: 10px;
+  
+ }
+
+
+
+ .container{
+  display: flex;
+  justify-content: center;
+ }
+
+ .foto{
+    width: 480px;
+    position: left;
+    margin: 10px;
+    padding: 10px;
+    border-style: solid;
+    border-color: black;
+ }
+
+ .foto1{
+    width: 480px;
+    position: right;
+    margin: 10px;
+    padding: 10px;
+    border-style: solid;
+    border-color: black;
+ }
+
+ .foto2{
+    width: 480px;
+    position: center right;
+    margin: 10px;
+    padding: 10px;
+    border-style: solid;
+    border-color: black;
+ }
+
+ .videos{
+   text-align: center;
+   margin: 10px;
+   padding: 10px;
+
+ 
+}
+
+
+ .container{
+    display: flex;
+    justify-content: center;
+   }
+  
+   .playa1{
+      width: 480px;
+      position: left;
+      margin: 10px;
+      padding: 10px;
+      border-style: solid;
+      border-color: black;
+   }
+  
+   .playa2{
+      width: 480px;
+      position: right;
+      margin: 10px;
+      padding: 10px;
+      border-style: solid;
+      border-color: black;
+   }
+  
+   .hotel{
+      width: 480px;
+      position: center right;
+      margin: 10px;
+      padding: 10px;
+      border-style: solid;
+      border-color: black;
+   }
+  
+.copacabana{
+     text-align: center;
+     margin: 10px;
+     padding: 10px;
+
+  }
+
+h4.separado{
+    margin: 10px;
+    padding: 10px;
+}
+
+.sangria{
+   text-indent: 20px;
+   padding-left: 8px;
+
+}

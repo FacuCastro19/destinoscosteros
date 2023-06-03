@@ -1,0 +1,74 @@
+body{
+    background-color: antiquewhite;
+ }
+
+ .container{
+    display: flex;
+    justify-content: center;
+ }
+ 
+ .aerolineasargentinas{
+     width: 480px;
+     position: center;
+     margin: 10px;
+     padding: 10px;
+     border-style: solid;
+     border-color: black;
+ }
+ 
+ .despegar{
+    width: 480px;
+    position: center;
+    margin:10px;
+    padding: 10px;
+    border-style: solid;
+    border-color: black;
+ }
+ 
+ .americanairlines{
+    width: 480px;
+    position: center;
+    margin:10px;
+    padding: 10px;
+    border-style: solid;
+    border-color: black;
+ }
+ 
+ 
+ .flybondi{
+    width: 480px;
+    position: center;
+    margin: 10px;
+    padding: 10px;
+    border-style: solid;
+    border-color: black;
+ }
+
+h4.sangria{
+    margin: 10px;
+    padding: 10px;
+}
+
+p.sangria{
+   text-indent: 20px;
+   padding-left: 8px;
+
+}
+
+.texto1{
+    margin-left: 10px;
+
+}
+
+.texto2{
+    margin-left: 10px;
+}
+
+.texto3{
+    margin-left: 10px;
+}
+
+.texto4{
+    margin-left: 10px;
+}
+

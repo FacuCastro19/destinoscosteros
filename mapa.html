@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mapa</title>
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="estilosformulario.css">
+    <link rel="stylesheet" href="javascriptformulario.js">
+    <link rel="stylesheet" href="busquedajavascript.js">
+</head>
+<body>
+    <header>   
+        <h1>El Mejor Turismo</h1>
+     </header>    
+     <nav>
+      <ul>
+         <li><a href="destinoscosteros.html">Inicio</a></li>
+         <li><a href="Lugares.html">Lugares</a></li>
+         <li><a href="precios.html">Precios</a></li>
+         <li><a href="mapa.html">Mapa</a></li>
+      </ul>
+    </nav>
+    <div class="buscarform"><form method="get" id="buscarform">
+        <form id="searchForm">
+            <input type="text" id="searchInput" placeholder="Buscar...">
+            <button type="submit">Buscar</button>
+          </form>
+          
+
+    <div class="Mapa"></div>
+
+    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d13103.866820620946!2d-58.45159315!3d-34.8067795!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2sar!4v1685828857148!5m2!1ses-419!2sar" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+<form id="myForm">
+    <div>
+    <label for="name">Nombre:</label>
+    <input type="text" id="name" name="name" required>
+  </div>
+  <div>
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required>
+  </div>
+  <div>
+    <label for="message">Mensaje:</label>
+    <textarea id="message" name="message" required></textarea>
+  </div>
+  <div>
+    <button type="submit">Enviar</button>
+  </div>
+</form>
+ 
+</body>
+</html>

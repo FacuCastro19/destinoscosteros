@@ -1,0 +1,50 @@
+body{
+    background-color: antiquewhite;
+}
+
+form {
+    width: 300px;
+    margin: 0 auto;
+  }
+  
+  label,
+  input,
+  textarea {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  button {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+.mapa{
+    width: 400px; /* Ancho deseado del mapa */
+    height: 400px; /* Altura deseada del mapa */
+    margin: 20px; /* Centrar horizontalmente */
+    position: center;
+}  
+
+.buscarform{
+    width: 300px;
+    margin: 0 auto;
+    button {
+        background-color: #4caf50;
+        color: white;
+        padding: 20px 20px;
+        border: none;
+        cursor: pointer;
+      }
+      
+      button:hover {
+        background-color: #45a049;
+      }
+}
